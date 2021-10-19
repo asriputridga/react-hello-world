@@ -17,7 +17,7 @@
 }
 
 p.time{
-    position: absolute;
+    /* position: absolute; */
     color: wheat;
     bottom: 6px;
     right: 6px;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import './../../component/YouTubeComponent/YouTubeComponent';
 import Youtube from "./../../component/YouTubeComponent/YouTubeComponent";
+import Product from "./../Product/Product";
 
 class Home extends Component {
     render() {
@@ -11,6 +12,9 @@ class Home extends Component {
             <Youtube time="7.12" title="wsq3" desc="desc"/>
             <Youtube time="7.12" title="wsq4" desc="desc"/>
             <Youtube time="7.12" title="wsq5" desc="desc"/>
+            <p>Counter</p>
+            <hr/>
+            <Product/>
         </div>;
     }
 }
